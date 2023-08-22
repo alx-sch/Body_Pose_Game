@@ -1,4 +1,4 @@
-# SPICED_final_project
+# Body Pose Game
 How to play:
 
 Download folder 'model' and  play_7.py
