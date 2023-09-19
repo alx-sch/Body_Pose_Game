@@ -1,4 +1,4 @@
-# Body Pose Game
+# Body Pose Game -- REPO WIP, COMPLETION BY SEP SEP 22, 2023 EDO
 How to play:
 
 Download folder 'model' and  play_7.py
