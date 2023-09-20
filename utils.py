@@ -218,7 +218,7 @@ def predict_pose_v2(landmark_coordinates, label_mapping, model):
     Predicts a pose label based on given landmark coordinates and a trained model.
 
     This function assigns pose labels based on prediction confidence and addresses
-    certain limitations of the model's behavior.
+    certain limitations of the model's behavior (see 'Prediction Probablities' in train_model.ipynb).
 
     Args:
         landmark_coordinates (numpy.ndarray): An array of shape (12, 2) containing pose landmark x,y coordinates obtained from the 'extract_landmarks' function.

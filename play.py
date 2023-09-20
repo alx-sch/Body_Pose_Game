@@ -12,7 +12,7 @@ Usage: python play.py <ROUNDS> <TIME>
 Example: python play.py 10 5 (10 rounds with 5 seconds between poses)
 
 Instructions:
-- Find the right position and camera angle before starting the countdown. Ensure that your feet and arms fill out the green square when doing the X pose.
+- Find the right position and camera angle before starting the countdown. Ensure that your feet and arms fill out the green square.
 - Press 'Space' to start the game (initially and after each round).
 - Press 'R' to restart the script execution.
 - Press 'Q' to quit the script.
@@ -61,7 +61,7 @@ LABEL_MAP = {"X": 0, "Hide": 1, "Pose": 2, "Squat": 3, "Stand": 4}
 POSES = [pose for pose in LABEL_MAP.keys()]
 
 # Loading Pose Classificatin model
-MODEL_PATH = "./models/model_strike_a_pose.h5"
+MODEL_PATH = "model_strike_a_pose.h5"
 MODEL = load_model(MODEL_PATH)
 
 # Flag to save recorded gameplay data (can be further analyzed via the procedure described in training_model.ipynb).
@@ -129,7 +129,7 @@ def main():
     game_over_sound_played = False
 
     # Load background music
-    pygame.mixer.music.load("./sounds/strike_pose.mp3")
+    pygame.mixer.music.load("./sounds/background.mp3")
 
     # 'Confirmation' sound when the space key is pressed.
     press_space_sound = pygame.mixer.Sound("./sounds/confirmation.mp3")
