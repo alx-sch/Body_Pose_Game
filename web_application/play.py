@@ -37,7 +37,7 @@ import pygame  # Import pygame for audio processing
 from tensorflow.keras.models import load_model
 
 # Import custom utility functions
-from utils import (
+from utils_2 import (
     initialize_pose_model,
     process_frame,
     blink_screen,
