@@ -15,6 +15,7 @@ from utils import (
 )
 
 import streamlit as st
+import subprocess
 from st_aggrid import AgGrid
 
 BEST_MOVIES = pd.read_csv("best_movies.csv")
@@ -152,6 +153,7 @@ else:
                 "Popular Recommender",
                 "NMF Recommender",
                 "Distance Recommender",
+                "Play 'STRIKE A POSE!'",
             ],
         )
     with col4:
