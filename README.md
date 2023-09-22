@@ -2,7 +2,11 @@
 
 
 
-https://github.com/alx-sch/STRIKE_A_POSE_Body_Pose_Classification_Game/assets/134595144/4c1efdd1-f6cd-4b87-b1f6-0780fc6ce121
+https://github.com/alx-sch/STRIKE_A_POSE_Body_Pose_Classification_Game/assets/134595144/bcffa499-bdbe-4177-996d-abcd805d37d4
+
+
+
+
 
 Check out the demonstration video in better quality [here](https://www.loom.com/share/c715db6d054c44cab8a703be838f9201?sid=b5d8c26a-da8b-4349-9043-285fca207493).
 
