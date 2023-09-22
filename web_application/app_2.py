@@ -18,7 +18,7 @@ def main():
 
     # Add Streamlit widgets here to take user inputs if needed
     # Embed the webcam widget using an iframe.
-    st.components.v1.iframe("webcam.html", width=640, height=480)
+    st.components.v1.iframe("pages/webcam.html", width=640, height=480)
 
     # Run the 'play.py' script as a subprocess
     if st.button("Start Game"):
