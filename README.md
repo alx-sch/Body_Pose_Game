@@ -1,4 +1,7 @@
 # Body Pose Game -- REPO WIP, COMPLETION BY SEP SEP 22, 2023 EDO
+
+<iframe width="560" height="315" src="https://www.loom.com/embed/c715db6d054c44cab8a703be838f9201?sid=59b8b857-cf88-4700-9d74-fa110b7c072e" frameborder="0" allowfullscreen="true"></iframe>
+
 How to play:
 
 Download folder 'model' and  play_7.py
