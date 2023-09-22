@@ -1,6 +1,6 @@
 # Body Pose Game -- REPO WIP, COMPLETION BY SEP SEP 22, 2023 EDO
 
-
+Turn audio on! 🎧
 
 https://github.com/alx-sch/STRIKE_A_POSE_Body_Pose_Classification_Game/assets/134595144/bcffa499-bdbe-4177-996d-abcd805d37d4
 
