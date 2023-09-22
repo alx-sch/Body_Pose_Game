@@ -17,12 +17,12 @@ from utils import (
 import streamlit as st
 from st_aggrid import AgGrid
 
-BEST_MOVIES = pd.read_csv("./Streamlit_app/best_movies.csv")
+BEST_MOVIES = pd.read_csv("best_movies.csv")
 BEST_MOVIES.rename(index=lambda x: x + 1, inplace=True)
 TITLES = ["---"] + list(BEST_MOVIES["title"].sort_values())
 
-ratings = pd.read_csv("./data/ml-latest-small/ratings.csv")
-movies = pd.read_csv("./data/ml-latest-small/movie_links.csv")
+ratings = pd.read_csv("data/ml-latest-small/ratings.csv")
+movies = pd.read_csv("data/ml-latest-small/movie_links.csv")
 
 # with open('distance_recommender.pkl', 'rb') as file:
 #    DISTANCE_MODEL = pickle.load(file)
@@ -35,7 +35,7 @@ with st.sidebar:
     # title
     st.title("It's movie time!")
     # image
-    st.image("./Streamlit_app/movie_time.jpg")
+    st.image("movie_time.jpg")
     # blank space
     st.write("")
     # selectbox
@@ -58,7 +58,7 @@ if page == "welcome page":
     # blank space
     st.write("")
     # image
-    st.image("./Streamlit_app/movie_pics.png")
+    st.image("movie_pics.png")
 
 ##########################################################
 # Popular Movies
@@ -179,7 +179,7 @@ else:
             )
 
         elif recommender == "NMF Recommender":
-            with open("./models/nmf_recommender.pkl", "rb") as file:
+            with open("models/nmf_recommender.pkl", "rb") as file:
                 model_nmf = pickle.load(file)
 
             recommendations = recommend_nmf(
@@ -187,7 +187,7 @@ else:
             )
 
         elif recommender == "Distance Recommender":
-            with open("./models/nn_cosine_recommender.pkl", "rb") as file:
+            with open("models/nn_cosine_recommender.pkl", "rb") as file:
                 cosine_nmf = pickle.load(file)
 
             recommendations = recommend_cosine(
