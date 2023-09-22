@@ -1,6 +1,12 @@
 # Body Pose Game -- REPO WIP, COMPLETION BY SEP SEP 22, 2023 EDO
 
-<iframe width="560" height="315" src="https://www.loom.com/embed/c715db6d054c44cab8a703be838f9201?sid=59b8b857-cf88-4700-9d74-fa110b7c072e" frameborder="0" allowfullscreen="true"></iframe>
+
+
+https://github.com/alx-sch/STRIKE_A_POSE_Body_Pose_Classification_Game/assets/134595144/4c1efdd1-f6cd-4b87-b1f6-0780fc6ce121
+
+Check out the video in better quality [here](https://www.loom.com/share/c715db6d054c44cab8a703be838f9201?sid=b5d8c26a-da8b-4349-9043-285fca207493).
+
+
 
 How to play:
 
