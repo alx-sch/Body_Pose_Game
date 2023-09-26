@@ -17,45 +17,64 @@ Check out the demonstration video in better quality [here](https://www.loom.com/
 
 https://github.com/alx-sch/STRIKE_A_POSE_Body_Pose_Classification_Game/assets/134595144/bcffa499-bdbe-4177-996d-abcd805d37d4
 
-
 ### Installation
 
-1. Clone this Git repository.
-2. Optional: Create a new virtual environment to run the game.
-```rb
-python3 -m venv envname # to create a virtual environment (macOS/LINUX)
-source envname/bin/activate # to activate it 
-deactivate # to deactivate it
-```
-3. Install game-specific requirements.
-```rb
-pip install -r requirements.txt
-```
-### How to Play
-To start the game, please specify the number of rounds and the time between poses:
-```rb
-python play.py <ROUNDS> <TIME>
-python play.py 10 5 # 10 rounds with 5 seconds between poses
-```
+To get started with "STRIKE A POSE!", follow these steps:
 
-A window with a videofeed will open. Make sure that the background is rather neutral.
-- Find the right position and camera angle before starting the countdown. Ensure that your feet and arms fill out the green square.
-- Press 'Space' to start the countdown.
-- Press 'R' to restart the script execution.
-- Press 'Q' to quit the script.
+1. Clone this Git repository to your local machine:
+   ```bash
+   git clone https://github.com/alx-sch/STRIKE_A_POSE_Body_Pose_Classification_Game).git
+
+2. Optional: Create and activate a virtual environment for better isolation of dependencies:
+    ```bash
+    python3 -m venv envname # Create a virtual environment (macOS/LINUX)
+    source envname/bin/activate # Activate the virtual environment
+
+    deactivate # Deactivate the virtual environment when not needed anymore
+
+3. Install the game-specific requirements.
+    ```bash
+    pip install -r requirements.txt
+
+### How to Play
+To enjoy "STRIKE A POSE!", follow these steps:
+
+1. Open a terminal and navigate to the project directory.
+
+2. Start the game by specifying the number of rounds and the time between poses. For example:
+
+   ```bash
+   python play.py 10 5  # Start with 10 rounds and 5 seconds between poses
+
+3. A window with a video feed will appear. Adjust your position and camera angle to fit the green square.
+   
+4. Controls:
+  - Press the 'Space' key to start the countdown.
+  - You can press 'R' to restart the script execution or 'Q' to quit the game
 
 ### Make it Yours!
-Adjust the game to your needs! Please refer to the documentation in collect_data.py, train_model.ipynb, and play.py for details.
+Adjust the game to your needs! 💪     
+Please refer to the documentation in collect_data.py, train_model.ipynb, and play.py for details.
 - Collect training data of poses of your choice with **collect_data.py**.
 - Train a new model to detect these new poses and test the model's performance with **train_model.ipynb** (feel free to play around and try out a different model's architecture! :) ).
-- Adjust the model used, poses, and respective sound files (see [Audio Credits](#audio-credits)) in ** play.py** to start your new Pose Game! 
+- Adjust the model used, poses, and respective sound files (see [Audio Credits](#audio-credits)) in **play.py** to start your new Pose Game! 
 
 ### Audio Credits
 - Background music is sampled by [KevWest: Funky Disco Beat](https://www.looperman.com/loops/detail/332124/funky-disco-beat-free-123bpm-disco-drum-loop).
 - Sound effects are downloaded from [Pixabay](https://pixabay.com/) (CC0 License).
 - Commands and in-game speech are generated using the Python library gTTS (Google Text-to-Speech).
 
-### Collaborate
-Pull requests are more than welcome! 
+### Contributing
+Contributions to "STRIKE A POSE!" are more than welcome! 🤗  
+
+Feel free to:
+  - Submit bug reports or feature requests through GitHub issues.
+  - Fork the repository, make your changes, and submit a pull request.
+  - Share your ideas, suggestions, or feedback in the discussions section.
 
 ### License
+This project is licensed under the [MIT License](LICENSE).
+
+### Acknowledgments
+
+I would like to thank Daniel Bärenbräuer for his outstanding project ["Live Sign Language Translator"](https://github.com/d-db/SPICED_Final_Project_Live_Sign_Language_Translator__LSTM_Neural_Network),  which served as a valuable source of inspiration for "STRIKE A POSE!".
