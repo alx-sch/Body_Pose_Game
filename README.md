@@ -2,7 +2,7 @@
 **Predictive Body Pose Classification via Sequential Neural Network Analysis in a Dynamic Videogame**
 
 ## Intro 
-"STRIKE A POSE!" is a videogame I developed in 1.5 weeks as my final project at [SPICED's](https://www.spiced-academy.com/en) Data Science Bootcamp.   
+"STRIKE A POSE!" is a videogame I developed in 1.5 weeks as my final project at a Data Science Bootcamp.   
 
 It's a fun workout challenge using body pose classification, in which to follow along with various exercises:   
 From squats to standing, hiding, making an X, or striking a unique pose of your own, you'll work up a sweat! 🏋️   
