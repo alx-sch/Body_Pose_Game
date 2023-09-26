@@ -9,7 +9,7 @@ From squats to standing, hiding, making an X, or striking a unique pose of your 
 
 You have the flexibility to adjust the number of rounds and the time between poses for an extra challenge.    
 
-Data collection, model training, and the game script are modularized, making it easy to customize to meet your unique workout needs 💪  
+Data collection, model training, and the game script are modularized, making it easy to customize to meet your unique workout needs. 💪  
 
 ### Demo
 Turn the audio on! 🎧  
