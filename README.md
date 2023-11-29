@@ -23,7 +23,7 @@ To get started with "STRIKE A POSE!", follow these steps:
 
 1. Clone this Git repository to your local machine:
    ```bash
-   git clone https://github.com/alx-sch/STRIKE_A_POSE_Body_Pose_Classification_Game).git
+   git clone https://github.com/alx-sch/STRIKE_A_POSE_Body_Pose_Classification_Game.git
 
 2. Optional: Create and activate a virtual environment for better isolation of dependencies:
     ```bash
