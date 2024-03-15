@@ -68,17 +68,6 @@ Please refer to the documentation in collect_data.py, train_model.ipynb, and pla
 - Sound effects are downloaded from [Pixabay](https://pixabay.com/) (CC0 License).
 - Commands and in-game speech are generated using the Python library gTTS (Google Text-to-Speech).
 
-### Contributing
-Contributions to "STRIKE A POSE!" are more than welcome! 🤗  
-
-Feel free to:
-  - Submit bug reports or feature requests through GitHub issues.
-  - Fork the repository, make your changes, and submit a pull request.
-  - Share your ideas, suggestions, or feedback in the discussions section.
-
-### License
-This project is licensed under the [MIT License](LICENSE).
-
 ### Acknowledgments
 
 I would like to thank Daniel Bärenbräuer for his outstanding project ["Live Sign Language Translator"](https://github.com/d-db/SPICED_Final_Project_Live_Sign_Language_Translator__LSTM_Neural_Network),  which served as a valuable source of inspiration for "STRIKE A POSE!".
