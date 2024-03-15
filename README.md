@@ -1,12 +1,12 @@
 # STRIKE A POSE! 
-**Predictive Body Pose Classification via Sequential Neural Network Analysis in a Dynamic Videogame**
+**Predictive Body Pose Classification via Sequential Neural Network Analysis in a Motion-Controlled Videogame**
 
 <p align="center">
     <img src="https://github.com/alx-sch/STRIKE_A_POSE_Body_Pose_Classification_Game/assets/134595144/efd8d989-79a2-48e5-9f77-0006680ff04d" alt="dancer.png" style="width: 250px;" />
 </p>
 
 ## Intro 
-"STRIKE A POSE!" is a videogame I developed in 1.5 weeks as my final project at a Data Science Bootcamp.   
+"STRIKE A POSE!" is an interactive, motion-controlled videogame.   
 
 It's a fun workout challenge using body pose classification, in which to follow along with various exercises:   
 From squats to standing, hiding, making an X, or striking a unique pose of your own, you'll work up a sweat! 🏋️   
